@@ -1,5 +1,6 @@
 import CreateUser from "../views/CreateUser.vue";
 import Login from "../views/Login.vue";
+import Users from "../views/Users.vue";
 
 export default [
     {
@@ -11,5 +12,10 @@ export default [
         path: '/login',
         name: 'login',
         component: Login,
+    },
+    {
+        path: '/users',
+        name: 'users',
+        component: Users,
     }
 ];
