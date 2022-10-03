@@ -28,7 +28,7 @@
                             <input type="password" class="form-control" v-model="user.password" placeholder="Enter a password">
                         </div>
 
-                        <button class="btn btn-primary mt-4">Créer</button>
+                        <button class="btn btn-primary mt-4">Create</button>
                     </fieldset>
                 </form>
             </div>
@@ -48,9 +48,6 @@
                 password:'',
                 errors: []
             }
-        },
-        created() {
-
         },
         methods: {
             async createAccount() {
@@ -82,8 +79,5 @@
                 }
             }
         },
-        mounted() {
-
-        }
     }
 </script>

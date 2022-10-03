@@ -1,6 +1,7 @@
 import CreateUser from "../views/CreateUser.vue";
 import Login from "../views/Login.vue";
 import Users from "../views/Users.vue";
+import Profile from "../views/UserProfile.vue";
 
 export default [
     {
@@ -17,5 +18,10 @@ export default [
         path: '/users',
         name: 'users',
         component: Users,
+    },
+    {
+        path: '/profile',
+        name: 'profile',
+        component: Profile,
     }
 ];
