@@ -64,7 +64,8 @@
                     await axios.post(url, formData).then((response) => {
                         console.log(response);
                         if(response.status == 200) {
-                            alert(response.data.message);
+                            // alert(response.data.message);
+                            this.$router.push({ name: 'profile' })
                         }
                     });
                 }
